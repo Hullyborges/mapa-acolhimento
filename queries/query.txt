@@ -18,3 +18,4 @@ ordem as ( select ano,
     ) AS crescimento_percentual
  from ordem 
  order by 1 desc;
+\`\`\`
