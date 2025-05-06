@@ -1,4 +1,5 @@
- ```with mt as (select  
+ \`\`\`sql  
+with mt as (select  
    CAST(created_at as year)   as ano,
             count ( match_id) as matches
            from matches
